@@ -7,9 +7,9 @@ use percent_encoding::{utf8_percent_encode, QUERY_ENCODE_SET};
 
 /// Search panic messages on stack overflow via duck duck go.
 ///
-/// Indentical to `with_query(|msg| format!("!so {}", msg))`
+/// Indentical to `with_query(|msg| format!("!so [rust] {}", msg))`
 pub fn enable() {
-    with_query(|msg| format!("!so {}", msg));
+    with_query(|msg| format!("!so [rust] {}", msg));
 }
 
 /// Search panic messages via duck duck go using a custom query.
