@@ -2,6 +2,8 @@
 name = "panic_search"
 version = "0.1.0"
 authors = ["panicbit <panicbit.dev@gmail.com>"]
+description = "Automatically search for panics when they happen"
+license = "MIT/Apache-2.0"
 
 [dependencies]
 open = "1.2.1"
